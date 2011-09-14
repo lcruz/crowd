@@ -1,0 +1,135 @@
+{% extends "base.html" %}
+
+{% block page %}
+    <!-- #columns: holds the columns of the page -->
+    <div id="columns" class="widthPad">
+
+
+    <!-- Left thumbnail column -->
+    <div class="floatLeft width25">
+
+      <h2>Nuestro <span class="dark">Sponsor</span></h2>
+
+      <ul class="thumbs">
+        <li>
+          <a href="http://www.experimentosocial.cl" class="thumb"><img width="102" src="/media/images/logo.png" alt="Experimento Social LOGO"/><span>Experimento Social </span></a>        </li>
+	 <!-- 	 <li>
+          <a href="http://www.opensourcetemplates.org" class="thumb"><img src="/media/images/thumbs/03.jpg" alt="thumbnail"/><span>Opensourcetemplates</span></a>        </li>     
+        <li>
+          <a href="" class="thumb"><img src="/media/images/thumbs/03.jpg" alt="thumbnail"/><span>Image title sample </span></a>        </li>
+      <li>
+          <a href="" class="thumb"><img src="/media/images/thumbs/04.jpg" alt="thumbnail"/><span>Image title sample </span></a>        </li>
+        <li>
+          <a href="" class="thumb"><img src="/media/images/thumbs/05.jpg" alt="thumbnail"/><span>Image title sample </span></a>        </li>
+        <li>
+          <a href="" class="thumb"><img src="/media/images/thumbs/04.jpg" alt="thumbnail"/><span>Image title sample </span></a>        </li>
+        <li>
+          <a href="" class="thumb"><img src="/media/images/thumbs/02.jpg" alt="thumbnail"/><span>Image title sample </span></a>        </li>
+        <li>
+          <a href="" class="thumb"><img src="/media/images/thumbs/03.jpg" alt="thumbnail"/><span>Image title sample </span></a>        </li>
+		  <li>
+          <a href="" class="thumb"><img src="/media/images/thumbs/03.jpg" alt="thumbnail"/><span>Image title sample </span></a>        </li>-->
+      </ul>
+
+    </div>
+    <!-- Left thumbnails end -->
+
+
+
+    <!-- Center news column -->
+    <div class="floatLeft width50">
+      <h1>&Uacute;litmos anuncios<span class="dark"></span></h1>
+
+
+{% for offer in offers %}
+      <!-- Start Post -->
+      <div class="post">
+
+        <div class="date">
+          <span class="month">{{offer.date|datetimeformat('%b')}}</span>
+          <span class="day style6">{{offer.date.day}}</span>        </div>
+
+        <p><a href="http://www.studio7designs.com">{{offer.title}}</a> {{offer.description}}</p>
+	    <p>
+	      Samples: <img src="/media/images/icon_samples.gif" alt="samples" class="alignBottom"/> <a href="/offer/{{offer.key()}}">More...</a>
+	    </p>
+
+      </div>
+      <!-- End Post -->
+{% endfor %}
+
+
+
+
+   
+
+
+
+
+
+
+    </div>
+    <!-- Center news column end -->
+	  	{% if not user %}
+	<div style="text-align:center;margin-bottom:	5px; margin-left:auto;margin-right:auto;" class="width25 floatRight"><a href="/auth"><img src="/media/images/btn-google.png" align="center"/></a></div>
+	{% endif %}
+    <!-- Right link column -->
+    <div class="floatRight width25 lightBlueBg horzPad">
+
+
+
+      <h2>OS <span class="dark">Resources</span></h2>
+
+      <ul class="submenu1">	    
+		<li><a href="http://www.oswd.org">OSWD</a></li>
+		<li><a href="http://www.opensourcetemplates.org">Free Templates</a></li>
+        <li><a href="http://www.studio7designs.com">Studio7designs.com </a></li>
+        <li><a href="http://www.arbutusphotography.com">Photographer Victoria</a></li>        
+        <li><a href="http://www.studio7designs.deviantart.com">DeviantArt</a></li>
+        <li><a href="http://www.csszengarden.com">Css Zen Garden</a></li>
+        <li><a href="http://www.cssremix.com">CSS Remix</a></li>
+      </ul>
+
+
+      <h3>More CSS <span class="dark">resources</span></h3>
+
+      <ul class="submenu2">
+        <li><a href="http://www.alistapart.com">A list apart</a></li>
+        <li><a href="http://www.famfamfam.com/">FAMFAMFAM Icons </a></li>
+        <li><a href="http://www.html.net/tutorials/css/introduction.asp">CSS Tutorials</a></li>
+        <li><a href="http://www.webwhirlers.com/colors/spinwheel.asp">Color Wheel</a></li>
+       
+	  </ul>
+
+
+
+      <ul class="submenu1">
+        <li><a href="http://www.cssbeauty.com/">CSS Beauty</a></li>
+        <li><a href="http://www.digg.com/">Digg</a></li>
+        <li><a href="http://www.html.it/articoli/niftycube/index.html">Nifty Corners</a></li>
+        <li><a href="http://www.html-kit.com/favicon/">Create a Favicon! </a></li>
+        <li><a href="http://www.freecsscart.com/">CSS shopping cart</a></li>
+        <li><a href="http://www.cssplay.co.uk/ie/weft.html">CSS Play</a></li>
+        <li><a href="http://www.mozilla.com/firefox/">Firefox</a></li>
+      </ul>
+
+      <h3>Favorite <span class="dark">Links</span></h3>
+
+      <ul class="submenu2">
+        <li><a href="www.bbc.co.uk/">BBC</a></li>
+        <li><a href="http://www.google.com/trends">Google Trends</a></li>
+        <li><a href="http://www.luminous-landscape.com/">Luminous-landscape </a></li>
+        <li><a href="www.studiotwentyeight.net/">Kols themes</a></li>
+		<li><a href="http://www.iconaholic.com/">iconaholic</a></li>
+        <li><a href="http://www.marvilla.us/">Iconica Custom Icons</a></li>
+        <li><a href="http://www.rad-e8.com/">rad-e8</a></li>
+        <li><a href="http://www.freundt.org/florian/index.htm">florian</a></li>
+	  </ul>
+
+    </div>
+    <!-- Right links column end -->
+
+
+    </div>
+    <!-- #columns end -->
+ {% endblock %}

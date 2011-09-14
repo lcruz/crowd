@@ -1,0 +1,88 @@
+{% extends "base.html" %}
+
+{% block page %}
+
+<!-- #columns: holds the columns of the page -->
+<div id="columns" class="widthPad">
+
+
+<!-- Left column -->
+<div class="floatLeft width25 lightBlueBg horzPad">
+
+  <h2>Details</h2>
+
+  <p>
+    Please make sure your info is correct, otherwise we can't get back to you.
+  </p>
+
+  <ul>
+    <li>613.555.5555</li>
+    <li><a href="">info@yourname.com</a></li>
+  </ul>
+
+  <p>
+    Nulla commodo. In nunc justo, mollis sed, gravida at, aliquam sit amet, urna. Nulla commodo. In pharetra justo eget turpis. Nulla commodo.
+  </p>
+
+
+
+</div>
+<!-- Left column end -->
+
+
+<!-- Right column -->
+<div class="floatRight width73">
+
+  <h1>Publicación de <span class="dark">Ofertas</span></h1>
+
+  <p>
+    Cuentanos de tu oferta, complenta la información con todos los detalles necesario para que los ofertantes puedan
+realizar una buena estimación
+  </p>
+
+  <form id="contact" action="" method="post" onsubmit="return configForm(this);" style="position: relative; z-index: 1;">
+
+
+
+  		<p>
+        <label>Titulo</label>
+        <input type="text" name="input1" class="width50"/>
+      </p>
+
+     
+  	 <p>
+           <label>Descripci&oacute;n</label>
+          <textarea name="textarea" rows="5" cols="60"></textarea>
+        </p>
+		 <p>
+	        <label>Monto M&aacute;ximo</label>
+	        <input type="text" name="input2" class="width50"/>
+	      </p>
+
+    <p>
+      <input type="submit" value="Publicar" class="button" />
+      <input type="reset" value="Limpiar" class="button" />
+    </p>
+
+    <p>&nbsp;
+      
+    </p>
+
+
+ 
+
+
+
+  </form>
+
+
+
+
+</div>
+<!-- Right column end -->
+
+
+</div>
+<!-- #columns end -->
+
+ {% endblock %}

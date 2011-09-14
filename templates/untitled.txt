@@ -1,0 +1,18 @@
+￼￼Experimento Social es una empresa de consultoría en innovación abierta, que busca, identifica y resuelve brechas tecnológicas que afecten el comportamiento social, dentro y fuera de las organizaciones, reflejándose estas brechas en comportamientos cotidianos subóptimos e innecesarios costos transaccionales, todos estos con efectos medibles a nivel social y/o comercial.
+Nuestra aproximación al problema tecnológico es aplicar metodológicamente el estado del arte bajo un enfoque único y holístico, gracias a nuestra experiencia, trasfondo multidisciplinario, formas de trabajo altamente participativas y orientación hacia el usuario final.
+Nuestro modelo de negocio se basa en la innovación abierta: una empresa paga por nuestra capacidad de innovación, cubre los costos del proyecto, comparte el riesgo y nos permite poseer, al final del proyecto, un producto de innovación demostrado para exportar a nuevos mercados.
+Dentro de los próximos dos años, esperamos convertirnos en la primera empresa que rentabiliza la venta de innovación bajo el modelo de innovación abierta, incorporando de esta forma al lenguaje local nuevas formas de cobro, nuevos indicadores y nuevas concepciones sobre la capacidad innovadora de las empresas.
+Nuestro Equipo
+Andrés Bucchi (Ingeniero Comercial UC — Consultor Independiente)
+Andrés es el hombre en terreno. Su experiencia en levantamiento de procesos, diseño de estrategias, metodologías simples de trabajo y diseño e implementación de aplicaciones ad-hoc, nos permite construir ágilmente aplicaciones útiles para el usuario, a la vez que se asegura su alineamiento con el negocio de nuestro cliente.
+Habilidades: programación y diseño web, diseño e investigación operativa, estrategia y liderazgo.
+Lenguajes: PHP, Python, SQL, ISQL, CSS, HTML, JS, Linux/Unix, Ampl.
+SeeAlso: http://andresbucchi.com, http://flickr.com/andresbucchi
+Luis Cruz (Ingeniero Informático UDLA — Gerente de Desarrollo Imagemaker)
+Luis esta a cargo de las definiciones tecnológicas. Ingeniero Informático con amplia experiencia en la gestión, diseño, desarrollo e implementación de múltiples proyectos de software, dando el sustento técnico a las soluciones ofrecidas por Experimento Social. Habilidades: Gestión de equipos ágiles de desarrollo, análisis y diseño de aplicaciones bajo diversas arquitecturas y plataformas.
+Lenguajes: PHP, Ruby, Python, Java/J2EE, C#, VB.NET, PL/SQL, Unix/Linux SeeAlso: http://blog.developer.cl
+￼￼￼￼
+￼￼Patricio Lustig (Ingeniero Comercial UC — ex Gerente Nuevos Negocios, Payroll, Director de Inversatil.cl)
+Patricio es el hombre comercial. Poseedor de una amplia y pragmática visión de negocios, procesos y tecnología. Su experiencia en la implementación de modelos de negocios, diseño de estrategias y coordinación de equipos de trabajo, en especial equipos comerciales, su alta capacidad de persuasión y sus amplias redes de contacto, nos permiten lograr fácilmente interés en diversos actores de considerable importancia para los fines comerciales de Experimento Social, ya sea clientes potenciales, aliados, medios u otros, lo que se traduce en una ventaja comparativa tangible.
+Habilidades: relaciones comerciales de alto calibre, diseño de modelos de negocios, implementación de proyectos, liderazgo de equipos de trabajo, levantamiento de procesos.
+Experiencias: desarrollo y rentabilización de carteras de clientes para nuevos negocios, desarrollos tecnológicos.

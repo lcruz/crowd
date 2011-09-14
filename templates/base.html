@@ -1,0 +1,132 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+
+
+  <title>Pegas</title>
+
+  <meta http-equiv="content-type" content="application/xhtml+xml; charset=UTF-8" />
+  <meta name="author" content="fullahead.org - studio7designs.com" />
+  <meta name="description" content="Site Description Here" />
+  <meta name="keywords" content="keywords, here" />
+  <meta name="robots" content="index, follow, noarchive" />
+  <meta name="googlebot" content="noarchive" />
+
+  <link rel="stylesheet" type="text/css" href="/media/css/layout.css" media="screen, projection, tv " />
+  <link rel="stylesheet" type="text/css" href="/media/css/html.css" media="screen, projection, tv " />
+
+  
+  <style type="text/css">
+<!--
+.style2 {color: #627E9A}
+.style3 {color: #62CC3C}
+.style6 {color: #5C8096}
+-->
+  </style>
+</head>
+
+<body>
+
+<!-- #content: holds all except site footer - causes footer to stick to bottom -->
+<div id="content">
+
+  <!-- #header: holds the logo and top links -->   
+  <div id="header" class="width">
+  
+  <img src="/media/images/logo.gif" alt="Your logo goes here"/>
+  
+    <ul>
+      <li><a href="/">Home</a></li>	
+		{% if user %}
+      <li><a  href="">Acerca de nosotros</a></li>
+ 		<li><a class="last" href="/logout">Logout</a></li>
+		{% else %}
+		 <li><a class="last" href="">Acerca de nosotros</a></li>
+		{% endif %}
+    
+    </ul>
+
+  </div>
+  <!-- #header end -->
+
+
+  <!-- #headerImg: holds the main header image or flash -->
+  <div id="headerImg" class="width"></div>
+
+
+
+
+  <!-- #menu: the main large box site menu -->
+<!--<div id="menu" style="background-color: #B3C6C4; margin-bottom:15px;" class="width">&nbsp;</div>-->
+
+  <div id="menu" class="width" >
+
+    <ul>
+      <li>
+        <a href="/publish" onfocus="blur()">
+          <span class="title ">Publica tu anuncio</span>
+          <span class="desc">¿Tienes alguna oferta?</span>        </a>      </li>
+     <li>
+        <a href="twocol_a.html" class="forum" onfocus="blur()">
+          <span class="title "></span>
+          <span class="desc style3"></span>        </a>      </li>
+       <li>
+        <a href="twocol_b.html" onfocus="blur()">
+          <span class="title "></span>
+          <span class="desc"></span>
+        </a>
+      </li>
+    <li>
+        <a href="contact.html" onfocus="blur()">
+          <span class="title "></span>
+          <span class="desc"></span>
+        </a>
+      </li>
+    </ul>
+
+  </div>
+  <!-- #menu end -->
+
+
+
+  <!-- #page: holds the page content -->
+
+
+
+  <div id="page">
+{% block page %}Page Content{% endblock %}
+  </div>
+  <!-- #page end -->
+
+</div>
+<!-- #content end -->
+
+
+
+
+<!-- #footer: holds the site footer (logo and links) -->
+<div id="footer">
+
+  <!-- #bg: applies the site width and footer background -->
+  <div id="bg" class="width">
+
+  <img src="/media/images/logo.gif" alt="Your logo goes here"/>
+
+    <ul>
+      <li><a href="http://www.studio7designs.com/photography_gallery">Design</a></li>
+      <li><a href="http://www.arbutusphotography.com">Inspired by</a></li>
+      <li><a href="http://www.studio7designs.com" class="last">studio7designs.com</a></li>
+	</ul>
+
+  </div>
+  <!-- #bg end -->
+
+</div>
+<!-- #footer end -->
+
+</body>
+
+</html>
